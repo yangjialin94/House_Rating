@@ -1,0 +1,6 @@
+framework module Pods_House_Rating {
+  umbrella header "Pods-House_Rating-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92DF0B51DC93474004921B7 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92DF0B41DC93474004921B7 /* RegisterPageViewController.swift */; };
+		A93219491DC93DB500FABEB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93219481DC93DB500FABEB8 /* LoginViewController.swift */; };
+		A932194B1DC9576100FABEB8 /* ApartmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932194A1DC9576100FABEB8 /* ApartmentListViewController.swift */; };
+		A932194E1DC9886800FABEB8 /* Allen Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A932194C1DC9886800FABEB8 /* Allen Hall.jpg */; };
+		A932194F1DC9886800FABEB8 /* ISR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A932194D1DC9886800FABEB8 /* ISR.jpg */; };
+		A93219511DC98D3100FABEB8 /* ApartmentListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93219501DC98D3100FABEB8 /* ApartmentListCellTableViewCell.swift */; };
+		A93219531DCA3EE200FABEB8 /* ISRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93219521DCA3EE200FABEB8 /* ISRViewController.swift */; };
+		A93219551DCA4A2E00FABEB8 /* AllenHallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93219541DCA4A2E00FABEB8 /* AllenHallViewController.swift */; };
+		A946571B1DD3AF5B0096EC88 /* FARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946571A1DD3AF5B0096EC88 /* FARViewController.swift */; };
+		A946571D1DD3B0320096EC88 /* FAR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A946571C1DD3B0320096EC88 /* FAR.jpg */; };
+		A946571F1DD3B0DF0096EC88 /* LARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946571E1DD3B0DF0096EC88 /* LARViewController.swift */; };
+		A94657211DD3B1030096EC88 /* PARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94657201DD3B1030096EC88 /* PARViewController.swift */; };
+		A94657231DD3B10F0096EC88 /* BuseyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94657221DD3B10F0096EC88 /* BuseyViewController.swift */; };
+		A94657251DD3B1200096EC88 /* IkenberryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94657241DD3B1200096EC88 /* IkenberryViewController.swift */; };
+		A94657271DD3B2260096EC88 /* PAR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A94657261DD3B2260096EC88 /* PAR.jpg */; };
+		A94657291DD3B2550096EC88 /* LAR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A94657281DD3B2550096EC88 /* LAR.jpg */; };
+		A946572B1DD3B2AC0096EC88 /* Ikenberry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A946572A1DD3B2AC0096EC88 /* Ikenberry.jpg */; };
+		A946572D1DD3B2CE0096EC88 /* Busey-Evans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A946572C1DD3B2CE0096EC88 /* Busey-Evans.jpg */; };
+		A946572F1DD3BDD70096EC88 /* ISRRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946572E1DD3BDD70096EC88 /* ISRRatingViewController.swift */; };
+		A94657311DD3C0550096EC88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A94657301DD3C0550096EC88 /* GoogleService-Info.plist */; };
+		A94657361DD407FE0096EC88 /* LARRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94657351DD407FE0096EC88 /* LARRatingViewController.swift */; };
+		A94657381DD4081C0096EC88 /* FARRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94657371DD4081C0096EC88 /* FARRatingViewController.swift */; };
+		A946573A1DD4083B0096EC88 /* PARRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94657391DD4083A0096EC88 /* PARRatingViewController.swift */; };
+		A946573C1DD4084E0096EC88 /* IkenberryRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946573B1DD4084E0096EC88 /* IkenberryRatingViewController.swift */; };
+		A946573E1DD408640096EC88 /* AllenHallRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946573D1DD408640096EC88 /* AllenHallRatingViewController.swift */; };
+		A94657401DD408700096EC88 /* BuseyRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946573F1DD408700096EC88 /* BuseyRatingViewController.swift */; };
+		A94B81611DEF30BC006F8A24 /* LARPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B81601DEF30BC006F8A24 /* LARPhotoTableViewCell.swift */; };
+		A94B81631DEF30EA006F8A24 /* PARPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B81621DEF30EA006F8A24 /* PARPhotoTableViewCell.swift */; };
+		A94B81651DEF30F5006F8A24 /* FARPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B81641DEF30F5006F8A24 /* FARPhotoTableViewCell.swift */; };
+		A94B81671DEF3104006F8A24 /* IkenberryPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B81661DEF3104006F8A24 /* IkenberryPhotoTableViewCell.swift */; };
+		A94B81691DEF310F006F8A24 /* AllenHallPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B81681DEF310F006F8A24 /* AllenHallPhotoTableViewCell.swift */; };
+		A94B816B1DEF311A006F8A24 /* BuseyPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B816A1DEF311A006F8A24 /* BuseyPhotoTableViewCell.swift */; };
+		A94B816D1DEF318D006F8A24 /* LARPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B816C1DEF318D006F8A24 /* LARPhotoViewController.swift */; };
+		A94B816F1DEF3195006F8A24 /* PARPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B816E1DEF3195006F8A24 /* PARPhotoViewController.swift */; };
+		A94B81711DEF319E006F8A24 /* FARPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B81701DEF319E006F8A24 /* FARPhotoViewController.swift */; };
+		A94B81731DEF31A6006F8A24 /* IkenberryPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B81721DEF31A6006F8A24 /* IkenberryPhotoViewController.swift */; };
+		A94B81751DEF31AD006F8A24 /* AllenHallPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B81741DEF31AD006F8A24 /* AllenHallPhotoViewController.swift */; };
+		A94B81771DEF31B6006F8A24 /* BuseyPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B81761DEF31B6006F8A24 /* BuseyPhotoViewController.swift */; };
+		A986DB2A1DC922BF00066454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A986DB291DC922BF00066454 /* AppDelegate.swift */; };
+		A986DB2C1DC922BF00066454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A986DB2B1DC922BF00066454 /* ViewController.swift */; };
+		A986DB2F1DC922BF00066454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A986DB2D1DC922BF00066454 /* Main.storyboard */; };
+		A986DB311DC922BF00066454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A986DB301DC922BF00066454 /* Assets.xcassets */; };
+		A986DB341DC922BF00066454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A986DB321DC922BF00066454 /* LaunchScreen.storyboard */; };
+		A986DB3F1DC922BF00066454 /* House_RatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A986DB3E1DC922BF00066454 /* House_RatingTests.swift */; };
+		A98D5C161DDBF76600A9EC40 /* ISRCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98D5C151DDBF76600A9EC40 /* ISRCommentViewController.swift */; };
+		A98D5C251DDCBE4B00A9EC40 /* ISRCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98D5C241DDCBE4B00A9EC40 /* ISRCommentTableViewCell.swift */; };
+		A9B8A3211DEBD8300070898E /* ISRPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8A3201DEBD8300070898E /* ISRPhotoViewController.swift */; };
+		A9B8A3251DED15540070898E /* ISRPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8A3241DED15540070898E /* ISRPhotoTableViewCell.swift */; };
+		A9C28AE51DDCE1ED00BBF634 /* LARCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C28AE41DDCE1ED00BBF634 /* LARCommentViewController.swift */; };
+		A9C28AE71DDCE1FF00BBF634 /* PARCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C28AE61DDCE1FF00BBF634 /* PARCommentViewController.swift */; };
+		A9C28AE91DDCE20E00BBF634 /* FARCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C28AE81DDCE20E00BBF634 /* FARCommentViewController.swift */; };
+		A9C28AEB1DDCE21C00BBF634 /* IkenberryCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C28AEA1DDCE21C00BBF634 /* IkenberryCommentViewController.swift */; };
+		A9C28AED1DDCE22C00BBF634 /* AllenHallCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C28AEC1DDCE22C00BBF634 /* AllenHallCommentViewController.swift */; };
+		A9C28AEF1DDCE23D00BBF634 /* BuseyCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C28AEE1DDCE23D00BBF634 /* BuseyCommentViewController.swift */; };
+		A9D87B301DDCE36C00CA70BA /* LARCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D87B2F1DDCE36C00CA70BA /* LARCommentTableViewCell.swift */; };
+		A9D87B321DDCE37A00CA70BA /* PARCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D87B311DDCE37A00CA70BA /* PARCommentTableViewCell.swift */; };
+		A9D87B341DDCE38900CA70BA /* FARCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D87B331DDCE38900CA70BA /* FARCommentTableViewCell.swift */; };
+		A9D87B361DDCE39C00CA70BA /* IkenberryCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D87B351DDCE39C00CA70BA /* IkenberryCommentTableViewCell.swift */; };
+		A9D87B381DDCE3A800CA70BA /* AllenCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D87B371DDCE3A800CA70BA /* AllenCommentTableViewCell.swift */; };
+		A9D87B3A1DDCE3B600CA70BA /* BuseyCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D87B391DDCE3B600CA70BA /* BuseyCommentTableViewCell.swift */; };
+		C7201F6ADF961E455763BB59 /* Pods_House_Rating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAC80F42A5608C601B7E892 /* Pods_House_Rating.framework */; };
+		C980B1007463432B33962576 /* Pods_House_RatingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58659A4DA012C8C5C462F108 /* Pods_House_RatingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A986DB3B1DC922BF00066454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A986DB1E1DC922BE00066454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A986DB251DC922BF00066454;
+			remoteInfo = House_Rating;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1789D7D71F9CD1523478936D /* Pods-House_RatingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-House_RatingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-House_RatingTests/Pods-House_RatingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E31BD0AEB9308B3AFB2CC82 /* Pods-House_Rating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-House_Rating.debug.xcconfig"; path = "Pods/Target Support Files/Pods-House_Rating/Pods-House_Rating.debug.xcconfig"; sourceTree = "<group>"; };
+		4404A1E195D0AB971DD0D954 /* Pods-House_RatingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-House_RatingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-House_RatingTests/Pods-House_RatingTests.release.xcconfig"; sourceTree = "<group>"; };
+		58659A4DA012C8C5C462F108 /* Pods_House_RatingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_House_RatingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F2367AFECDE227DFF0981E /* Pods-House_Rating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-House_Rating.release.xcconfig"; path = "Pods/Target Support Files/Pods-House_Rating/Pods-House_Rating.release.xcconfig"; sourceTree = "<group>"; };
+		A92DF0B41DC93474004921B7 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		A93219481DC93DB500FABEB8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A932194A1DC9576100FABEB8 /* ApartmentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApartmentListViewController.swift; sourceTree = "<group>"; };
+		A932194C1DC9886800FABEB8 /* Allen Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Allen Hall.jpg"; sourceTree = "<group>"; };
+		A932194D1DC9886800FABEB8 /* ISR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISR.jpg; sourceTree = "<group>"; };
+		A93219501DC98D3100FABEB8 /* ApartmentListCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApartmentListCellTableViewCell.swift; sourceTree = "<group>"; };
+		A93219521DCA3EE200FABEB8 /* ISRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISRViewController.swift; sourceTree = "<group>"; };
+		A93219541DCA4A2E00FABEB8 /* AllenHallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllenHallViewController.swift; sourceTree = "<group>"; };
+		A946571A1DD3AF5B0096EC88 /* FARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FARViewController.swift; sourceTree = "<group>"; };
+		A946571C1DD3B0320096EC88 /* FAR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FAR.jpg; sourceTree = "<group>"; };
+		A946571E1DD3B0DF0096EC88 /* LARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LARViewController.swift; sourceTree = "<group>"; };
+		A94657201DD3B1030096EC88 /* PARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARViewController.swift; sourceTree = "<group>"; };
+		A94657221DD3B10F0096EC88 /* BuseyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuseyViewController.swift; sourceTree = "<group>"; };
+		A94657241DD3B1200096EC88 /* IkenberryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IkenberryViewController.swift; sourceTree = "<group>"; };
+		A94657261DD3B2260096EC88 /* PAR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PAR.jpg; sourceTree = "<group>"; };
+		A94657281DD3B2550096EC88 /* LAR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LAR.jpg; sourceTree = "<group>"; };
+		A946572A1DD3B2AC0096EC88 /* Ikenberry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ikenberry.jpg; sourceTree = "<group>"; };
+		A946572C1DD3B2CE0096EC88 /* Busey-Evans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Busey-Evans.jpg"; sourceTree = "<group>"; };
+		A946572E1DD3BDD70096EC88 /* ISRRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISRRatingViewController.swift; sourceTree = "<group>"; };
+		A94657301DD3C0550096EC88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A94657321DD3CA290096EC88 /* House_Rating.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = House_Rating.entitlements; sourceTree = "<group>"; };
+		A94657351DD407FE0096EC88 /* LARRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LARRatingViewController.swift; sourceTree = "<group>"; };
+		A94657371DD4081C0096EC88 /* FARRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FARRatingViewController.swift; sourceTree = "<group>"; };
+		A94657391DD4083A0096EC88 /* PARRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARRatingViewController.swift; sourceTree = "<group>"; };
+		A946573B1DD4084E0096EC88 /* IkenberryRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IkenberryRatingViewController.swift; sourceTree = "<group>"; };
+		A946573D1DD408640096EC88 /* AllenHallRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllenHallRatingViewController.swift; sourceTree = "<group>"; };
+		A946573F1DD408700096EC88 /* BuseyRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuseyRatingViewController.swift; sourceTree = "<group>"; };
+		A94B81601DEF30BC006F8A24 /* LARPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LARPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		A94B81621DEF30EA006F8A24 /* PARPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		A94B81641DEF30F5006F8A24 /* FARPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FARPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		A94B81661DEF3104006F8A24 /* IkenberryPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IkenberryPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		A94B81681DEF310F006F8A24 /* AllenHallPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllenHallPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		A94B816A1DEF311A006F8A24 /* BuseyPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuseyPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		A94B816C1DEF318D006F8A24 /* LARPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LARPhotoViewController.swift; sourceTree = "<group>"; };
+		A94B816E1DEF3195006F8A24 /* PARPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARPhotoViewController.swift; sourceTree = "<group>"; };
+		A94B81701DEF319E006F8A24 /* FARPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FARPhotoViewController.swift; sourceTree = "<group>"; };
+		A94B81721DEF31A6006F8A24 /* IkenberryPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IkenberryPhotoViewController.swift; sourceTree = "<group>"; };
+		A94B81741DEF31AD006F8A24 /* AllenHallPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllenHallPhotoViewController.swift; sourceTree = "<group>"; };
+		A94B81761DEF31B6006F8A24 /* BuseyPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuseyPhotoViewController.swift; sourceTree = "<group>"; };
+		A986DB261DC922BF00066454 /* House_Rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = House_Rating.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A986DB291DC922BF00066454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A986DB2B1DC922BF00066454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A986DB2E1DC922BF00066454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A986DB301DC922BF00066454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A986DB331DC922BF00066454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A986DB351DC922BF00066454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A986DB3A1DC922BF00066454 /* House_RatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = House_RatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A986DB3E1DC922BF00066454 /* House_RatingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House_RatingTests.swift; sourceTree = "<group>"; };
+		A986DB401DC922BF00066454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98D5C151DDBF76600A9EC40 /* ISRCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISRCommentViewController.swift; sourceTree = "<group>"; };
+		A98D5C241DDCBE4B00A9EC40 /* ISRCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISRCommentTableViewCell.swift; sourceTree = "<group>"; };
+		A9B8A3201DEBD8300070898E /* ISRPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISRPhotoViewController.swift; sourceTree = "<group>"; };
+		A9B8A3241DED15540070898E /* ISRPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISRPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		A9C28AE41DDCE1ED00BBF634 /* LARCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LARCommentViewController.swift; sourceTree = "<group>"; };
+		A9C28AE61DDCE1FF00BBF634 /* PARCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARCommentViewController.swift; sourceTree = "<group>"; };
+		A9C28AE81DDCE20E00BBF634 /* FARCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FARCommentViewController.swift; sourceTree = "<group>"; };
+		A9C28AEA1DDCE21C00BBF634 /* IkenberryCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IkenberryCommentViewController.swift; sourceTree = "<group>"; };
+		A9C28AEC1DDCE22C00BBF634 /* AllenHallCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllenHallCommentViewController.swift; sourceTree = "<group>"; };
+		A9C28AEE1DDCE23D00BBF634 /* BuseyCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuseyCommentViewController.swift; sourceTree = "<group>"; };
+		A9D87B2F1DDCE36C00CA70BA /* LARCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LARCommentTableViewCell.swift; sourceTree = "<group>"; };
+		A9D87B311DDCE37A00CA70BA /* PARCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PARCommentTableViewCell.swift; sourceTree = "<group>"; };
+		A9D87B331DDCE38900CA70BA /* FARCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FARCommentTableViewCell.swift; sourceTree = "<group>"; };
+		A9D87B351DDCE39C00CA70BA /* IkenberryCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IkenberryCommentTableViewCell.swift; sourceTree = "<group>"; };
+		A9D87B371DDCE3A800CA70BA /* AllenCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllenCommentTableViewCell.swift; sourceTree = "<group>"; };
+		A9D87B391DDCE3B600CA70BA /* BuseyCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuseyCommentTableViewCell.swift; sourceTree = "<group>"; };
+		BDAC80F42A5608C601B7E892 /* Pods_House_Rating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_House_Rating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A986DB231DC922BF00066454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7201F6ADF961E455763BB59 /* Pods_House_Rating.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A986DB371DC922BF00066454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980B1007463432B33962576 /* Pods_House_RatingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6106D86DFE07417907D8A5FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC80F42A5608C601B7E892 /* Pods_House_Rating.framework */,
+				58659A4DA012C8C5C462F108 /* Pods_House_RatingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A986DB1D1DC922BE00066454 = {
+			isa = PBXGroup;
+			children = (
+				A986DB281DC922BF00066454 /* House_Rating */,
+				A986DB3D1DC922BF00066454 /* House_RatingTests */,
+				A986DB271DC922BF00066454 /* Products */,
+				DDEC61ADA5D409D049A831F0 /* Pods */,
+				6106D86DFE07417907D8A5FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A986DB271DC922BF00066454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A986DB261DC922BF00066454 /* House_Rating.app */,
+				A986DB3A1DC922BF00066454 /* House_RatingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A986DB281DC922BF00066454 /* House_Rating */ = {
+			isa = PBXGroup;
+			children = (
+				A94657321DD3CA290096EC88 /* House_Rating.entitlements */,
+				A986DB291DC922BF00066454 /* AppDelegate.swift */,
+				A986DB2B1DC922BF00066454 /* ViewController.swift */,
+				A986DB2D1DC922BF00066454 /* Main.storyboard */,
+				A98D5C1F1DDCAD8200A9EC40 /* Login */,
+				A98D5C201DDCAD9400A9EC40 /* ApartmentList */,
+				A98D5C171DDCACB200A9EC40 /* ISR */,
+				A98D5C181DDCACCC00A9EC40 /* LAR */,
+				A98D5C1B1DDCAD0000A9EC40 /* PAR */,
+				A98D5C191DDCACE400A9EC40 /* FAR */,
+				A98D5C1C1DDCAD3800A9EC40 /* Ikenberry */,
+				A98D5C1D1DDCAD4700A9EC40 /* AllenHall */,
+				A98D5C1E1DDCAD5700A9EC40 /* Busey */,
+				A98D5C211DDCAF9700A9EC40 /* Images */,
+				A986DB301DC922BF00066454 /* Assets.xcassets */,
+				A986DB321DC922BF00066454 /* LaunchScreen.storyboard */,
+				A986DB351DC922BF00066454 /* Info.plist */,
+				A94657301DD3C0550096EC88 /* GoogleService-Info.plist */,
+			);
+			path = House_Rating;
+			sourceTree = "<group>";
+		};
+		A986DB3D1DC922BF00066454 /* House_RatingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A986DB3E1DC922BF00066454 /* House_RatingTests.swift */,
+				A986DB401DC922BF00066454 /* Info.plist */,
+			);
+			path = House_RatingTests;
+			sourceTree = "<group>";
+		};
+		A98D5C171DDCACB200A9EC40 /* ISR */ = {
+			isa = PBXGroup;
+			children = (
+				A93219521DCA3EE200FABEB8 /* ISRViewController.swift */,
+				A946572E1DD3BDD70096EC88 /* ISRRatingViewController.swift */,
+				A98D5C151DDBF76600A9EC40 /* ISRCommentViewController.swift */,
+				A98D5C241DDCBE4B00A9EC40 /* ISRCommentTableViewCell.swift */,
+				A9B8A3201DEBD8300070898E /* ISRPhotoViewController.swift */,
+				A9B8A3241DED15540070898E /* ISRPhotoTableViewCell.swift */,
+			);
+			name = ISR;
+			sourceTree = "<group>";
+		};
+		A98D5C181DDCACCC00A9EC40 /* LAR */ = {
+			isa = PBXGroup;
+			children = (
+				A946571E1DD3B0DF0096EC88 /* LARViewController.swift */,
+				A94657351DD407FE0096EC88 /* LARRatingViewController.swift */,
+				A9C28AE41DDCE1ED00BBF634 /* LARCommentViewController.swift */,
+				A9D87B2F1DDCE36C00CA70BA /* LARCommentTableViewCell.swift */,
+				A94B816C1DEF318D006F8A24 /* LARPhotoViewController.swift */,
+				A94B81601DEF30BC006F8A24 /* LARPhotoTableViewCell.swift */,
+			);
+			name = LAR;
+			sourceTree = "<group>";
+		};
+		A98D5C191DDCACE400A9EC40 /* FAR */ = {
+			isa = PBXGroup;
+			children = (
+				A946571A1DD3AF5B0096EC88 /* FARViewController.swift */,
+				A94657371DD4081C0096EC88 /* FARRatingViewController.swift */,
+				A9C28AE81DDCE20E00BBF634 /* FARCommentViewController.swift */,
+				A9D87B331DDCE38900CA70BA /* FARCommentTableViewCell.swift */,
+				A94B81701DEF319E006F8A24 /* FARPhotoViewController.swift */,
+				A94B81641DEF30F5006F8A24 /* FARPhotoTableViewCell.swift */,
+			);
+			name = FAR;
+			sourceTree = "<group>";
+		};
+		A98D5C1B1DDCAD0000A9EC40 /* PAR */ = {
+			isa = PBXGroup;
+			children = (
+				A94657201DD3B1030096EC88 /* PARViewController.swift */,
+				A94657391DD4083A0096EC88 /* PARRatingViewController.swift */,
+				A9C28AE61DDCE1FF00BBF634 /* PARCommentViewController.swift */,
+				A9D87B311DDCE37A00CA70BA /* PARCommentTableViewCell.swift */,
+				A94B816E1DEF3195006F8A24 /* PARPhotoViewController.swift */,
+				A94B81621DEF30EA006F8A24 /* PARPhotoTableViewCell.swift */,
+			);
+			name = PAR;
+			sourceTree = "<group>";
+		};
+		A98D5C1C1DDCAD3800A9EC40 /* Ikenberry */ = {
+			isa = PBXGroup;
+			children = (
+				A94657241DD3B1200096EC88 /* IkenberryViewController.swift */,
+				A946573B1DD4084E0096EC88 /* IkenberryRatingViewController.swift */,
+				A9C28AEA1DDCE21C00BBF634 /* IkenberryCommentViewController.swift */,
+				A9D87B351DDCE39C00CA70BA /* IkenberryCommentTableViewCell.swift */,
+				A94B81721DEF31A6006F8A24 /* IkenberryPhotoViewController.swift */,
+				A94B81661DEF3104006F8A24 /* IkenberryPhotoTableViewCell.swift */,
+			);
+			name = Ikenberry;
+			sourceTree = "<group>";
+		};
+		A98D5C1D1DDCAD4700A9EC40 /* AllenHall */ = {
+			isa = PBXGroup;
+			children = (
+				A93219541DCA4A2E00FABEB8 /* AllenHallViewController.swift */,
+				A946573D1DD408640096EC88 /* AllenHallRatingViewController.swift */,
+				A9C28AEC1DDCE22C00BBF634 /* AllenHallCommentViewController.swift */,
+				A9D87B371DDCE3A800CA70BA /* AllenCommentTableViewCell.swift */,
+				A94B81741DEF31AD006F8A24 /* AllenHallPhotoViewController.swift */,
+				A94B81681DEF310F006F8A24 /* AllenHallPhotoTableViewCell.swift */,
+			);
+			name = AllenHall;
+			sourceTree = "<group>";
+		};
+		A98D5C1E1DDCAD5700A9EC40 /* Busey */ = {
+			isa = PBXGroup;
+			children = (
+				A94657221DD3B10F0096EC88 /* BuseyViewController.swift */,
+				A946573F1DD408700096EC88 /* BuseyRatingViewController.swift */,
+				A9C28AEE1DDCE23D00BBF634 /* BuseyCommentViewController.swift */,
+				A9D87B391DDCE3B600CA70BA /* BuseyCommentTableViewCell.swift */,
+				A94B81761DEF31B6006F8A24 /* BuseyPhotoViewController.swift */,
+				A94B816A1DEF311A006F8A24 /* BuseyPhotoTableViewCell.swift */,
+			);
+			name = Busey;
+			sourceTree = "<group>";
+		};
+		A98D5C1F1DDCAD8200A9EC40 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A93219481DC93DB500FABEB8 /* LoginViewController.swift */,
+				A92DF0B41DC93474004921B7 /* RegisterPageViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		A98D5C201DDCAD9400A9EC40 /* ApartmentList */ = {
+			isa = PBXGroup;
+			children = (
+				A932194A1DC9576100FABEB8 /* ApartmentListViewController.swift */,
+				A93219501DC98D3100FABEB8 /* ApartmentListCellTableViewCell.swift */,
+			);
+			name = ApartmentList;
+			sourceTree = "<group>";
+		};
+		A98D5C211DDCAF9700A9EC40 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A932194D1DC9886800FABEB8 /* ISR.jpg */,
+				A94657281DD3B2550096EC88 /* LAR.jpg */,
+				A946571C1DD3B0320096EC88 /* FAR.jpg */,
+				A94657261DD3B2260096EC88 /* PAR.jpg */,
+				A946572A1DD3B2AC0096EC88 /* Ikenberry.jpg */,
+				A932194C1DC9886800FABEB8 /* Allen Hall.jpg */,
+				A946572C1DD3B2CE0096EC88 /* Busey-Evans.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DDEC61ADA5D409D049A831F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E31BD0AEB9308B3AFB2CC82 /* Pods-House_Rating.debug.xcconfig */,
+				66F2367AFECDE227DFF0981E /* Pods-House_Rating.release.xcconfig */,
+				1789D7D71F9CD1523478936D /* Pods-House_RatingTests.debug.xcconfig */,
+				4404A1E195D0AB971DD0D954 /* Pods-House_RatingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A986DB251DC922BF00066454 /* House_Rating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A986DB431DC922BF00066454 /* Build configuration list for PBXNativeTarget "House_Rating" */;
+			buildPhases = (
+				C71F245A3F3262F7E170BC7B /* [CP] Check Pods Manifest.lock */,
+				A986DB221DC922BF00066454 /* Sources */,
+				A986DB231DC922BF00066454 /* Frameworks */,
+				A986DB241DC922BF00066454 /* Resources */,
+				4404C076E97CE73B2D068261 /* [CP] Embed Pods Frameworks */,
+				FFD8728DB69B5ACCC310E12D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = House_Rating;
+			productName = House_Rating;
+			productReference = A986DB261DC922BF00066454 /* House_Rating.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A986DB391DC922BF00066454 /* House_RatingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A986DB461DC922BF00066454 /* Build configuration list for PBXNativeTarget "House_RatingTests" */;
+			buildPhases = (
+				9250F54B975BACF44416A8F4 /* [CP] Check Pods Manifest.lock */,
+				A986DB361DC922BF00066454 /* Sources */,
+				A986DB371DC922BF00066454 /* Frameworks */,
+				A986DB381DC922BF00066454 /* Resources */,
+				9795BA3E192A9E5B7DDD51DE /* [CP] Embed Pods Frameworks */,
+				06F0E252AA8379E16BCDC9C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A986DB3C1DC922BF00066454 /* PBXTargetDependency */,
+			);
+			name = House_RatingTests;
+			productName = House_RatingTests;
+			productReference = A986DB3A1DC922BF00066454 /* House_RatingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A986DB1E1DC922BE00066454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = YJL;
+				TargetAttributes = {
+					A986DB251DC922BF00066454 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					A986DB391DC922BF00066454 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A986DB251DC922BF00066454;
+					};
+				};
+			};
+			buildConfigurationList = A986DB211DC922BE00066454 /* Build configuration list for PBXProject "House_Rating" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A986DB1D1DC922BE00066454;
+			productRefGroup = A986DB271DC922BF00066454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A986DB251DC922BF00066454 /* House_Rating */,
+				A986DB391DC922BF00066454 /* House_RatingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A986DB241DC922BF00066454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A946572B1DD3B2AC0096EC88 /* Ikenberry.jpg in Resources */,
+				A986DB341DC922BF00066454 /* LaunchScreen.storyboard in Resources */,
+				A932194F1DC9886800FABEB8 /* ISR.jpg in Resources */,
+				A94657271DD3B2260096EC88 /* PAR.jpg in Resources */,
+				A986DB311DC922BF00066454 /* Assets.xcassets in Resources */,
+				A946571D1DD3B0320096EC88 /* FAR.jpg in Resources */,
+				A946572D1DD3B2CE0096EC88 /* Busey-Evans.jpg in Resources */,
+				A94657291DD3B2550096EC88 /* LAR.jpg in Resources */,
+				A94657311DD3C0550096EC88 /* GoogleService-Info.plist in Resources */,
+				A932194E1DC9886800FABEB8 /* Allen Hall.jpg in Resources */,
+				A986DB2F1DC922BF00066454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A986DB381DC922BF00066454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F0E252AA8379E16BCDC9C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-House_RatingTests/Pods-House_RatingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4404C076E97CE73B2D068261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-House_Rating/Pods-House_Rating-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9250F54B975BACF44416A8F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9795BA3E192A9E5B7DDD51DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-House_RatingTests/Pods-House_RatingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71F245A3F3262F7E170BC7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD8728DB69B5ACCC310E12D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-House_Rating/Pods-House_Rating-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A986DB221DC922BF00066454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94B81631DEF30EA006F8A24 /* PARPhotoTableViewCell.swift in Sources */,
+				A93219491DC93DB500FABEB8 /* LoginViewController.swift in Sources */,
+				A9D87B321DDCE37A00CA70BA /* PARCommentTableViewCell.swift in Sources */,
+				A986DB2C1DC922BF00066454 /* ViewController.swift in Sources */,
+				A946571F1DD3B0DF0096EC88 /* LARViewController.swift in Sources */,
+				A9C28AEB1DDCE21C00BBF634 /* IkenberryCommentViewController.swift in Sources */,
+				A94B81691DEF310F006F8A24 /* AllenHallPhotoTableViewCell.swift in Sources */,
+				A946571B1DD3AF5B0096EC88 /* FARViewController.swift in Sources */,
+				A986DB2A1DC922BF00066454 /* AppDelegate.swift in Sources */,
+				A93219531DCA3EE200FABEB8 /* ISRViewController.swift in Sources */,
+				A98D5C251DDCBE4B00A9EC40 /* ISRCommentTableViewCell.swift in Sources */,
+				A9B8A3211DEBD8300070898E /* ISRPhotoViewController.swift in Sources */,
+				A94B81751DEF31AD006F8A24 /* AllenHallPhotoViewController.swift in Sources */,
+				A946572F1DD3BDD70096EC88 /* ISRRatingViewController.swift in Sources */,
+				A9D87B3A1DDCE3B600CA70BA /* BuseyCommentTableViewCell.swift in Sources */,
+				A9C28AED1DDCE22C00BBF634 /* AllenHallCommentViewController.swift in Sources */,
+				A9B8A3251DED15540070898E /* ISRPhotoTableViewCell.swift in Sources */,
+				A94657401DD408700096EC88 /* BuseyRatingViewController.swift in Sources */,
+				A93219551DCA4A2E00FABEB8 /* AllenHallViewController.swift in Sources */,
+				A9C28AE51DDCE1ED00BBF634 /* LARCommentViewController.swift in Sources */,
+				A94B81651DEF30F5006F8A24 /* FARPhotoTableViewCell.swift in Sources */,
+				A94B816D1DEF318D006F8A24 /* LARPhotoViewController.swift in Sources */,
+				A94657231DD3B10F0096EC88 /* BuseyViewController.swift in Sources */,
+				A94B816B1DEF311A006F8A24 /* BuseyPhotoTableViewCell.swift in Sources */,
+				A94657251DD3B1200096EC88 /* IkenberryViewController.swift in Sources */,
+				A94657361DD407FE0096EC88 /* LARRatingViewController.swift in Sources */,
+				A92DF0B51DC93474004921B7 /* RegisterPageViewController.swift in Sources */,
+				A946573C1DD4084E0096EC88 /* IkenberryRatingViewController.swift in Sources */,
+				A9C28AEF1DDCE23D00BBF634 /* BuseyCommentViewController.swift in Sources */,
+				A9D87B341DDCE38900CA70BA /* FARCommentTableViewCell.swift in Sources */,
+				A94B81731DEF31A6006F8A24 /* IkenberryPhotoViewController.swift in Sources */,
+				A94657211DD3B1030096EC88 /* PARViewController.swift in Sources */,
+				A94657381DD4081C0096EC88 /* FARRatingViewController.swift in Sources */,
+				A9D87B361DDCE39C00CA70BA /* IkenberryCommentTableViewCell.swift in Sources */,
+				A9C28AE91DDCE20E00BBF634 /* FARCommentViewController.swift in Sources */,
+				A9D87B301DDCE36C00CA70BA /* LARCommentTableViewCell.swift in Sources */,
+				A946573A1DD4083B0096EC88 /* PARRatingViewController.swift in Sources */,
+				A93219511DC98D3100FABEB8 /* ApartmentListCellTableViewCell.swift in Sources */,
+				A98D5C161DDBF76600A9EC40 /* ISRCommentViewController.swift in Sources */,
+				A932194B1DC9576100FABEB8 /* ApartmentListViewController.swift in Sources */,
+				A9C28AE71DDCE1FF00BBF634 /* PARCommentViewController.swift in Sources */,
+				A94B816F1DEF3195006F8A24 /* PARPhotoViewController.swift in Sources */,
+				A94B81771DEF31B6006F8A24 /* BuseyPhotoViewController.swift in Sources */,
+				A94B81671DEF3104006F8A24 /* IkenberryPhotoTableViewCell.swift in Sources */,
+				A94B81711DEF319E006F8A24 /* FARPhotoViewController.swift in Sources */,
+				A94B81611DEF30BC006F8A24 /* LARPhotoTableViewCell.swift in Sources */,
+				A946573E1DD408640096EC88 /* AllenHallRatingViewController.swift in Sources */,
+				A9D87B381DDCE3A800CA70BA /* AllenCommentTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A986DB361DC922BF00066454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A986DB3F1DC922BF00066454 /* House_RatingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A986DB3C1DC922BF00066454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A986DB251DC922BF00066454 /* House_Rating */;
+			targetProxy = A986DB3B1DC922BF00066454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A986DB2D1DC922BF00066454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A986DB2E1DC922BF00066454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A986DB321DC922BF00066454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A986DB331DC922BF00066454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A986DB411DC922BF00066454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A986DB421DC922BF00066454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A986DB441DC922BF00066454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E31BD0AEB9308B3AFB2CC82 /* Pods-House_Rating.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = House_Rating/House_Rating.entitlements;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = House_Rating/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yjl.House-Rating";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A986DB451DC922BF00066454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F2367AFECDE227DFF0981E /* Pods-House_Rating.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = House_Rating/House_Rating.entitlements;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = House_Rating/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yjl.House-Rating";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A986DB471DC922BF00066454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1789D7D71F9CD1523478936D /* Pods-House_RatingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = House_RatingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yjl.House-RatingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/House_Rating.app/House_Rating";
+			};
+			name = Debug;
+		};
+		A986DB481DC922BF00066454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4404A1E195D0AB971DD0D954 /* Pods-House_RatingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = House_RatingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yjl.House-RatingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/House_Rating.app/House_Rating";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A986DB211DC922BE00066454 /* Build configuration list for PBXProject "House_Rating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A986DB411DC922BF00066454 /* Debug */,
+				A986DB421DC922BF00066454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A986DB431DC922BF00066454 /* Build configuration list for PBXNativeTarget "House_Rating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A986DB441DC922BF00066454 /* Debug */,
+				A986DB451DC922BF00066454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A986DB461DC922BF00066454 /* Build configuration list for PBXNativeTarget "House_RatingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A986DB471DC922BF00066454 /* Debug */,
+				A986DB481DC922BF00066454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A986DB1E1DC922BE00066454 /* Project object */;
+}

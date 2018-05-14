@@ -1,0 +1,34 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "bf71baf5-a347-40dc-ab8a-56b97dd86a93++4839" : {
+
+    },
+    "bf71baf5-a347-40dc-ab8a-56b97dd86a93++16" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "bf71baf5-a347-40dc-ab8a-56b97dd86a93++4839" : 9223372036854775807,
+    "bf71baf5-a347-40dc-ab8a-56b97dd86a93++16" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "21AE5EC7-655F-466A-8BBB-4B0D0646A739",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "bf71baf5-a347-40dc-ab8a-56b97dd86a93++4839" : "House_Rating\/",
+    "bf71baf5-a347-40dc-ab8a-56b97dd86a93++16" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "House_Rating",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "House_Rating.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/subversion.ews.illinois.edu\/svn\/fa16-cs242",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bf71baf5-a347-40dc-ab8a-56b97dd86a93++16"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/subversion.ews.illinois.edu\/svn\/fa16-cs242",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bf71baf5-a347-40dc-ab8a-56b97dd86a93++4839"
+    }
+  ]
+}
